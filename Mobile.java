@@ -73,6 +73,7 @@ public class Mobile;
 			//Date of birth
 				WebElement dateob = driver.findElement(By.xpath("/html/body/div/form/input[3]"));
 				dateob.sendKeys("15/02/2003");
+				int date;
 				date = 15/02/2003;
 				
 				Thread.sleep(2000);
